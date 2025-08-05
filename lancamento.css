@@ -86,3 +86,25 @@
     color:black
 }
 
+.submit-botao{
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 200px;
+}
+
+.submit-botao:hover{
+    background-color: #00274c;
+    color: white;
+    transform: translateY(-2px);
+}

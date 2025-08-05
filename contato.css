@@ -8,24 +8,24 @@
 form {
     display: flex;
     flex-direction: column;
-
+    align-items:end;
 }
 
 .submit-button {
-    width: 100%;
+    width: 40%;
     padding: 12px;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
     transition: background-color #0056b3 ease;
+    margin-top: 10px;
 }
 
 .imput_config {
-
     width: 600px;
     height: 20px;
     font-size: 16px;
@@ -41,4 +41,19 @@ select {
     border-radius: 5px;
     margin-bottom: 6px;
     border: 1px solid #ccc;
+}
+
+form h3{
+    text-align: center;
+    width: 100%;
+}
+
+.forms_img{
+    max-height: 400px;
+}
+
+form textarea{
+    width: 99%;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
 }

@@ -22,24 +22,25 @@
         <div></div>
     </header>
     <main class="main__form">
-        <img src="/img/xls 2.2 diesel.jpg" alt="Ford Ranger">
-        <form action=" ">
-        
-            <input type="text" id="nome" name="nome" placeholder="NOME" class="imput_config">
-            <input type="text" id="nome" name="nome" placeholder="SOBRENOME"class="imput_config"> 
-            <input type="text" id="nome" name="nome" placeholder="CPF"class="imput_config">
-            <input type="text" id="nome" name="nome" placeholder="E-MAIL"class="imput_config">
-            
-
-            <select id="frutas" name="fruta-favorita" >
-                <option value="" disabled selected>MOTIVO DO CONTATO</option>
+        <div class="forms_img">
+            <img src="/img/xls 2.2 diesel.jpg" alt="Ford Ranger">
+        </div>
+        <form class="formulario">
+            <h3> Sobre Você</h3>
+            <input type="text" id="nome" name="nome" placeholder="NOME DE USUÁRIO" class="imput_config">
+            <input type="text" id="nome" name="nome" placeholder="E-MAIL" class="imput_config">
+            <input type="text" id="nome" name="nome" placeholder="TELEFONE" class="imput_config">
+            <select id="frutas" name="fruta-favorita">
+                <option value="" disabled selected>TIPO DO CONTATO</option>
                 <option value="ELOGIO">ELOGIO</option>
                 <option value="RECLAMAÇÃO">RECLAMAÇÃO</option>
                 <option value="SOLICITAÇÃO">SOLICITAÇÃO</option>
             </select>
+            <textarea id="mensagem" name="mensagem" placeholder="ESCREVA SUA MENSAGEM" class="input_config" rows="5"></textarea>
             
+
             <button type="submit" class="submit-button">Enviar</button>
-       
+
         </form>
     </main>
 
