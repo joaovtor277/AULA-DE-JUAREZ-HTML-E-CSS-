@@ -8,7 +8,7 @@
     line-height: 1.5;
     color:black;
     margin: 20px 100px;
-    text-align: left
+    text-align: left;
 }
 
 .video_promocional{
@@ -21,6 +21,8 @@
     height: 500px;
     border-radius: 8px;
     border: none;
+    display: block;
+    margin: 0 auto;
 }
 
 .tabelaCarros{
