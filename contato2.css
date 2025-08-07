@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-} 
+}
 
 .formulario h3 {
     color: black;
@@ -37,7 +37,7 @@
 }
 
 .imputGrupo {
-    position: relative; 
+    position: relative;
 }
 
 .imputGrupo input,
@@ -64,7 +64,6 @@
 }
 
 .imputGrupo select {
-
     width: 332px;
     appearance: none;
     -webkit-appearance: none;
@@ -82,16 +81,37 @@
 
 }
 
-.submitBotao{
+.submitBotao {
     width: 110%;
     padding: 12px;
-    background-color: #007bff;
+    background-color: #1351D8;
     color: white;
     border: none;
-    border-radius: 10px;
-    font-size: 15px;
+    border-radius: 6px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color #0056b3 ease;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.submitBotao:hover {
+    background-color: #00274c;
+    color: white;
+    transform: translate(-2px);
+}
+
+@media (max-widht: 768px){
+    .contatoPagina{
+        flex-direction:column;
+        gap: 20px;
+    }
+    .formularioContainer{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+}
